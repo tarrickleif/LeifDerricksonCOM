@@ -1,0 +1,108 @@
+.contactCard {
+  /*background-color: navy;*/
+  box-shadow: 0 5px 5px rgba(0,0,0,0.50);
+  border-radius: 15px;
+  width: 85%;
+  height: 918px;
+  margin: auto;
+}
+
+.contactContain {
+  position: relative;
+  top: 41px;
+  border: 5px solid #00aeef;
+  border-radius: 10px;
+  /*background-color: cyan;*/
+  width: 95%;
+  height: 643px;
+  margin: auto;
+}
+
+.contactHeader {
+  background-color: yellow;
+}
+
+.contactHeader h4 {
+  font-family: sans-serif;
+  font-size: 40px;
+  color: #00aeef;
+  margin: 0 10px auto;
+  float: right;
+}
+
+.recordMsgDot {
+  background-color: #00aeef;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  float: right;
+  margin: 10px 15px 0px;
+}
+
+form {
+  background-color: orange;
+  clear: both;
+}
+
+input {
+  background-color: rgba(247,148,29,0.2);
+  font-size: 2.5em;
+  color: #004a80;
+  border: none;
+  border-radius: 10px;
+  float: left;
+  width: 47%;
+  height: 100px;
+  margin: auto;
+}
+
+#name{
+  margin: 3% 0 0 2.5%;
+}
+
+#email {
+margin: 3% 0 0 1%;
+}
+
+textarea {
+  background-color: rgba(247,148,29,0.2);
+  font-size: 2.5em;
+  color: #004a80;
+  width: 95%;
+  height: 380px;
+  float:left;
+  clear: left;
+  border: none;
+  border-radius: 10px;
+  margin: 2% 0 0 2.5%;
+}
+
+.contactGradiant {
+  position: relative;
+  background-image: linear-gradient(rgb(0,74,128) 35%, rgb(247,148,29) 10%, rgb(247,148,29) 65%, rgb(121,0,0) 10%);
+  width: 97%;
+  height: 150px;
+  top: 50px;
+  margin: 0 auto;
+}
+
+.contactGradiant p {
+  font-family: sans-serif;
+  font-size: 2.5em;
+  color: #004a80;
+  background-color: white;
+  border-radius: 100%;
+  transform: scaleX(1.1);
+  padding: 52px;
+  margin: auto;
+}
+
+#L {
+  position: absolute;
+  left: 26%;
+}
+
+#D{
+  position: absolute;
+  right: 26%;
+}
